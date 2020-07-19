@@ -1,0 +1,121 @@
+.top-container {
+  background-color: #EAF6F6;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #66BFBF;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.huw-image{
+  width: 200px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.625rem;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-color: lightgrey;
+  border-width: 6px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-copyright {
+  color: #EAF6F6;
+}
+
+.BUTTON_XWJ {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #3A6E6E);
+   background-image: -moz-linear-gradient(top, #66BFBF, #3A6E6E);
+   background-image: -ms-linear-gradient(top, #66BFBF, #3A6E6E);
+   background-image: -o-linear-gradient(top, #66BFBF, #3A6E6E);
+   background-image: linear-gradient(to bottom, #66BFBF, #3A6E6E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 36px;
+   line-height: 36px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   width: 153px;
+   font-size: 17px;
+   padding: 0px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 25px auto 10px auto;
+}

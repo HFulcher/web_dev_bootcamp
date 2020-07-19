@@ -1,0 +1,166 @@
+/* Palette: https://colorhunt.co/palette/167893 */
+
+/* General */
+
+.about-container, .work-container, .cta-container, .footer-container {
+  padding: 5% 10%;
+}
+
+.about, .cta {
+  /* background: #3282b8; */
+  background: #216583;
+  color: white;
+}
+
+.my-work, .footer {
+  background: white;
+  /* background: #00818a; */
+  color: black;
+}
+
+.work-heading, .cta-heading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.underline-emphasis {
+  text-decoration: underline;
+  text-decoration-color: #f7be16;
+  text-decoration-thickness: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  width: 70%;
+}
+
+/* Navbar */
+.top-bar {
+  /* background: #0f4c75; */
+  background: #293462;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-container {
+  padding: 1% 7%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.25rem;
+}
+
+/* About */
+.about {
+  color: white;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.about-image {
+  width: 20rem;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 4.5rem;
+  padding-bottom: 5%;
+}
+
+.about-subtitle {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 991px) {
+  .about-image {
+    padding-bottom: 7%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-image {
+    width: 15rem;
+  }
+}
+
+/* My Work */
+.my-work {
+  /* color: white; */
+  text-align: center;
+}
+
+.work-cards {
+  padding: 5% 0;
+}
+
+.work-icon {
+  color: #0f4c75;
+  font-size: 4rem;
+  padding: 10% 0 5%;
+  transition: 0.3s;
+}
+
+.work-icon:hover {
+  color: #f7be16;
+}
+
+/* Call to Action */
+.cta {
+  color: white;
+  text-align: center;
+}
+
+.cta-description {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.contact-button {
+  background: #293462;
+  border-color: #293462;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  background: #f7be16;
+  border-color: #f7be16;
+}
+
+/* Footer */
+.footer{
+  text-align: center;
+}
+
+.icon {
+  color: black;
+  font-size: 1.75rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: #f7be16;
+}
